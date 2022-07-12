@@ -1,0 +1,76 @@
+
+.form-reg{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: rgb(107, 107, 107);
+    margin: auto;
+    padding: 40px;
+
+}
+
+.reg-cont{
+    width: "100vw";
+}
+
+.register{
+    width: 40%;
+    border: 0;
+    cursor: pointer;
+    margin: auto;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: white;
+    margin-bottom: -25px;
+}
+
+.form-reg{
+
+    color: white;
+}
+
+.form-reg label{
+    letter-spacing: 1px;
+    margin-top: 7px;
+    font-size: 15px;
+}
+
+.formreg-cont{
+    padding-top: 100px;
+}
+
+.user-err{
+    font-size: small;
+    margin-bottom: 0px;
+    margin-top: 0px;
+        display: none;
+}
+
+.display{
+    display: block;
+}
+
+.formreg-cont button{
+    font-size: small;
+    letter-spacing: 1px;
+
+}
+
+.form-reg .ttle{
+    margin-top: -10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.form-reg .input{
+    text-indent: 5px;
+    padding: 5px;
+    border: 0;
+    outline: none;
+}
+
+/* .formik-reg{
+        margin-top: 400px;
+} */

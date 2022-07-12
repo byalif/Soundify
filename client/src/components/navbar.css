@@ -1,0 +1,52 @@
+.nav-cont{
+    height: 70px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+
+            z-index: 200;
+}
+.navbar{
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1800px;
+    height: 100%;
+    align-items: center;
+}
+
+.left {
+    margin-left: 15px;
+    display: flex;
+}
+
+.right {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Link{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1;
+
+    text-decoration: none;
+    padding: 4px;
+    margin: 0 3px;
+}
+
+.toggle{
+    cursor: pointer;
+    height: 19px;
+    margin-right: 2px;
+    padding: 4px;
+    margin-top: 2px;
+}
+
+
+@media (max-width: 400px) {
+    .nav-cont {
+        width: 430px;
+    }
+}
