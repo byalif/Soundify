@@ -15,8 +15,8 @@ const upload = multer({ storage });
 const bucket = "july22proj";
 
 const s3 = new AWS.S3({
-  accessKeyId: "AKIAWWWNOP2KG2FQXYAI",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
 });
 
 const uploadAudio = (filename, bucketName, file) => {
